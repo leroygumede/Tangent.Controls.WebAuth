@@ -1,0 +1,47 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Tangent.Controls.WebViewAuth</id>
+    <version>0.0.1</version>
+    <title>Tangent.Controls.WebViewAuth</title>
+    <authors>LeRoy Gumede</authors>
+    <owners>LeRoy Gumede</owners>
+    <licenseUrl>http://www.tangentsolutions.co.za</licenseUrl>
+    <projectUrl>http://www.tangentsolutions.co.za</projectUrl>
+    <iconUrl>https://avatars1.githubusercontent.com/u/3285854</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Tangent.Controls.WebViewAuth</description>
+    <releaseNotes>
+    [0.0.1] Initial pre-release of nuget package
+    </releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>Basic webview authentication</tags>
+
+    <dependencies>
+    <group targetFramework="MonoAndroid">
+        <dependency id="Xamarin.Forms" version="3.4.0.1008975" />
+      </group>
+      <group targetFramework="Xamarin.iOS10">
+        <dependency id="Xamarin.Forms" version="3.4.0.1008975" />
+      </group>
+      <group targetFramework="netstandard2.0">
+        <dependency id="Xamarin.Forms" version="3.4.0.1008975" />
+      </group>
+    </dependencies>
+  </metadata>
+
+  <files>
+    <!-- ReadMe file to display when package is installed -->
+    <file src="../README.md" target="" />
+    <!-- NetStandard -->
+    <file src="../src/Tangent.Controls.WebViewAuth/bin/Release/netstandard2.0/Tangent.Controls.WebViewAuth.dll" target="lib/netstandard2.0" />
+    
+    <!-- Xamarin.Android -->
+    <file src="../src/Tangent.Controls.Android.WebViewAuth/bin/Release/Tangent.Controls.WebViewAuth.dll" target="lib/MonoAndroid10" />
+    <file src="../src/Tangent.Controls.Android.WebViewAuth/bin/Release/Tangent.Controls.Android.WebViewAuth.dll" target="lib/MonoAndroid10" />
+    
+    <!-- Xamarin.iOS -->
+    <file src="../src/Tangent.Controls.iOS.WebViewAuth/bin/Release/Tangent.Controls.WebViewAuth.dll" target="lib/Xamarin.iOS10" />
+    <file src="../src/Tangent.Controls.iOS.WebViewAuth/bin/Release/Tangent.Controls.iOS.WebViewAuth.dll" target="lib/Xamarin.iOS10" />
+  </files>
+</package>

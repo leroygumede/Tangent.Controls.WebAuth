@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Tangent.Controls.WebViewAuthExample.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:controls="clr-namespace:Tangent.Controls.WebViewAuth;assembly=Tangent.Controls.WebViewAuth"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <StackLayout>
+        <controls:EnhancedWebView
+            x:Name="EnhancedWeb"
+            HorizontalOptions="FillAndExpand"
+            Password="96f1a404b233cee3"
+            Source="https://dev.intrade.app/company/view-report/zOyXJPEP30xgjaG"
+            Username="leroy@tangentsolutions.co.za"
+            VerticalOptions="FillAndExpand" />
+    </StackLayout>
+</ContentPage>
