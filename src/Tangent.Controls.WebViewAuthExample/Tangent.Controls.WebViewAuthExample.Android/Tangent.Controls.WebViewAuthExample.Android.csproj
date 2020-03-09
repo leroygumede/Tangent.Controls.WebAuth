@@ -31,7 +31,7 @@
     <DefineConstants>DEBUG;</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <AndroidLinkMode>None</AndroidLinkMode>
+    <AndroidLinkMode>Full</AndroidLinkMode>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -42,6 +42,7 @@
     <WarningLevel>4</WarningLevel>
     <AndroidManagedSymbols>true</AndroidManagedSymbols>
     <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <AndroidLinkMode>None</AndroidLinkMode>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Mono.Android" />
@@ -51,9 +52,6 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Numerics" />
     <Reference Include="System.Numerics.Vectors" />
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.3.0.908675" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
@@ -87,14 +85,23 @@
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Tangent.Controls.Android.WebViewAuth\Tangent.Controls.Android.WebViewAuth.csproj">
+      <Project>{ab205de7-832e-4989-b16c-649d7fa665be}</Project>
+      <Name>Tangent.Controls.Android.WebViewAuth</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Tangent.Controls.WebViewAuth\Tangent.Controls.WebViewAuth.csproj">
       <Project>{bb5702a9-4d98-4a4c-ac61-c030cb375549}</Project>
       <Name>Tangent.Controls.WebViewAuth</Name>
     </ProjectReference>
     <ProjectReference Include="..\Tangent.Controls.WebViewAuthExample\Tangent.Controls.WebViewAuthExample.csproj">
-      <Project>{19933C6C-7FB8-4540-9FDE-0B01B23744EA}</Project>
+      <Project>{6709029f-c42a-4288-9274-d2921477e450}</Project>
       <Name>Tangent.Controls.WebViewAuthExample</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms">
+      <Version>4.3.0.908675</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

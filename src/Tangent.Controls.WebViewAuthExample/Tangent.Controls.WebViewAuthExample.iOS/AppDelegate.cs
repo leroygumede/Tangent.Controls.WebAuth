@@ -24,7 +24,7 @@ namespace Tangent.Controls.WebViewAuthExample.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
-            Tangent.Controls.IOS.WebViewAuth();
+            Tangent.Controls.IOS.WebViewAuth.RendererInitializar.Init();
             return base.FinishedLaunching(app, options);
         }
     }
