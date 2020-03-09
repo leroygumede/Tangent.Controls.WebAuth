@@ -87,6 +87,10 @@
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Tangent.Controls.WebViewAuth\Tangent.Controls.WebViewAuth.csproj">
+      <Project>{bb5702a9-4d98-4a4c-ac61-c030cb375549}</Project>
+      <Name>Tangent.Controls.WebViewAuth</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Tangent.Controls.WebViewAuthExample\Tangent.Controls.WebViewAuthExample.csproj">
       <Project>{19933C6C-7FB8-4540-9FDE-0B01B23744EA}</Project>
       <Name>Tangent.Controls.WebViewAuthExample</Name>

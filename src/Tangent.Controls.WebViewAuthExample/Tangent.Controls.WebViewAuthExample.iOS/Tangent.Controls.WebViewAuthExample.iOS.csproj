@@ -127,6 +127,12 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
+    <ProjectReference Include="..\..\Tangent.Controls.IOS.WebViewAuth\Tangent.Controls.IOS.WebViewAuth.csproj">
+      <Project>{921aded2-0a1a-4117-a39d-060e1aef80f3}</Project>
+      <Name>Tangent.Controls.IOS.WebViewAuth</Name>
+      <IsAppExtension>false</IsAppExtension>
+      <IsWatchApp>false</IsWatchApp>
+    </ProjectReference>
     <ProjectReference Include="..\Tangent.Controls.WebViewAuthExample\Tangent.Controls.WebViewAuthExample.csproj">
       <Project>{19933C6C-7FB8-4540-9FDE-0B01B23744EA}</Project>
       <Name>Tangent.Controls.WebViewAuthExample</Name>

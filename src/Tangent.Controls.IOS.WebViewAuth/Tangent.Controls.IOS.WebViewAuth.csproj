@@ -42,6 +42,8 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RendererInitializar.cs" />
+    <Compile Include="Renderers\EnhancedWebViewRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Tangent.Controls.WebViewAuth\Tangent.Controls.WebViewAuth.csproj">

@@ -18,6 +18,8 @@ In your platform projects, add the following line of code after your Xamarin.For
 ```
 Tangent.Controls.WebViewAuthRenderer.Init();
 ```
+#### Android  
+Android requires the `INTERNET` permission in order to load a website from the Internet.
 
 ### Usage  
 In your XAML Page, add the namespace

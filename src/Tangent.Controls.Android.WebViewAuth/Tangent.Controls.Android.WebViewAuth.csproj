@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EnhancedWebViewClient.cs" />
+    <Compile Include="RendererInitializar.cs" />
     <Compile Include="Renderers\EnhancedWebViewRenderer.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

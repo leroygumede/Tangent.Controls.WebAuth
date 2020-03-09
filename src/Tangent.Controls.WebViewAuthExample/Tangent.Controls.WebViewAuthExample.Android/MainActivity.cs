@@ -2,6 +2,7 @@
 using Android.Content.PM;
 using Android.OS;
 using Android.Runtime;
+using web = global::Android;
 
 namespace Tangent.Controls.WebViewAuthExample.Droid
 {
@@ -14,8 +15,8 @@ namespace Tangent.Controls.WebViewAuthExample.Droid
             ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(savedInstanceState);
-
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+
             LoadApplication(new App());
         }
 
