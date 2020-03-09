@@ -20,8 +20,7 @@ namespace Tangent.Controls.Android.WebViewAuth.Renderers
         }
 
         public static void Init()
-        {
-            EnhancedWebViewRenderer.Init();
+        { 
         }
 
         protected override void OnElementChanged(ElementChangedEventArgs<EnhancedWebView> e)
