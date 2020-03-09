@@ -4,7 +4,7 @@
 ## Introduction  
 This control allows you to view webviews with basic authentication
 
- ![](images/WebViewAuthExample.gif| width=100)
+ ![](images/WebViewAuthExample.gif | width=100)
 
 ## Getting Started  
 ### Installation  
